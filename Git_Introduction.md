@@ -104,19 +104,6 @@ git remote rm 给远程仓库起的别名          #删除本地仓库与远程�
 
 **`HEAD`是指向当前分支引用的指针，该指针指向在该分支上的最后一个提交的指针。这意味着`HEAD`将是下一个创建的提交的父亲。一般来说，把你的`HEAD`作为你最后一次提交的快照，是最简单的。`HEAD~1`表示`HEAD`的前一次提交，`HEAD~2`表示`HEAD`的前两次提交，以此类推**
 
-### `rm`命令
-
-- `git rm files`：删除工作目录的文件
-- `git rm -f files`：强制删除工作目录的文件，不做更新检查
-- `git rm --cached files`：删除暂存区的文件
-
-### `mv`命令
-
-- `git mv oldfile newfile`：为文件重命名
-- `git mv files dir`：移动文件到指定目录
-- `git mv -f oldfile newfile`：强制为文件重命名，即使目标文件已存在
-- `git mv -f files dir`：强制移动文件到指定目录名，即使目标文件已存在
-
 ## 分支管理
 
 ### `branch`命令
